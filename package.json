@@ -1,0 +1,51 @@
+{
+  "name": "react-virtualized-list",
+  "version": "0.1.0",
+  "description": "Virtualized (windowed) list rendering only visible rows for React.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Viprasol Tech Private Limited",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viprasol-Tech/react-virtualized-list.git"
+  },
+  "homepage": "https://viprasol.com",
+  "bugs": {
+    "url": "https://github.com/Viprasol-Tech/react-virtualized-list/issues"
+  },
+  "keywords": [
+    "react",
+    "virtualized",
+    "windowing",
+    "performance",
+    "typescript",
+    "ui-components",
+    "virtual-list"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "jsdom": "^24.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.5"
+  }
+}
